@@ -1,32 +1,16 @@
+
 # XML and JSON to HTML Converter
 
 ## Project Description
-This project provides a modular Python application that converts XML and JSON files into HTML format. The tool is divided into two packages:
-
-1. **xmltohtml**: Handles XML to HTML conversion.
-2. **jsontohtml**: Handles JSON to HTML conversion.
-
-The application is structured for clarity, scalability, and ease of use, making it ideal for educational purposes, prototyping, or real-world use cases involving data visualization.
+This project provides a Python-based application to convert XML and JSON files into HTML format. It offers an interactive menu-driven interface for users to choose between XML and JSON conversion. The output files are saved in a specified directory, maintaining proper HTML structure.
 
 ---
 
-## Project Phases
-
-### Phase 1: Initial Design
-- Define the classes for converting XML and JSON to HTML.
-- Establish proper error handling and modularity.
-
-### Phase 2: Package Creation
-- Split functionality into the `xmltohtml` and `jsontohtml` packages.
-
-### Phase 3: Testing and Validation
-- Test the application with sample XML and JSON files.
-- Validate the output HTML structure.
-
-### Phase 4: Deployment
-- Prepare the repository for GitHub with appropriate documentation.
-
----
+##colaborators
+1.Manthan Ashok Rajurkar
+2.Niranjan Mahendra Rasal
+3.Prachi Satish Nawale
+4.Samruddhi Milind Sanawane
 
 ## Requirements
 
@@ -35,50 +19,42 @@ The application is structured for clarity, scalability, and ease of use, making 
 ### Python Libraries
 - Standard libraries: `xml.etree.ElementTree`, `json`
 
+Ensure the following project structure:
+```
+HTML_CONVERTER/
+├── xml_to_HTML_Converter.py
+├── json_to_HTML_Converter.py
+├── main.py
+├── sample_CustomersOrders.xml
+├── sample1.json
+├── converted_files/
+```
+
 ---
 
 ## Steps to Run
 
-### 1. Clone the Repository
-```bash
-git clone https://github.com/<your-username>/xml-json-to-html-converter.git
-cd xml-json-to-html-converter
-```
-
-### 2. Set Up the Project Structure
-Ensure the following folder structure is in place:
-```
-xml-json-to-html-converter/
-├── xmltohtml/
-│   └── converter.py
-├── jsontohtml/
-│   └── converter.py
-├── html_converter/
-    ├── main.py
-    ├── example.xml
-    ├── example.json
-```
-
-### 3. Run the Application
-
-#### For XML to HTML Conversion:
-1. Place your XML file in the `html_converter/` folder.
-2. Update the `example.xml` file name in `main.py` if necessary.
-3. Execute the script:
+1. Clone the Repository:
    ```bash
-   python html_converter/main.py
+   git clone https://github.com/<your-username>/xml-json-to-html-converter.git
+   cd xml-json-to-html-converter
    ```
 
-#### For JSON to HTML Conversion:
-1. Place your JSON file in the `html_converter/` folder.
-2. Update the `example.json` file name in `main.py` if necessary.
-3. Execute the script:
+2. Ensure all required files are placed correctly:
+   - **XML file**: `sample_CustomersOrders.xml`
+   - **JSON file**: `sample1.json`
+   - Create a `converted_files` directory to store the output HTML files.
+
+3. Run the application:
    ```bash
-   python html_converter/main.py
+   python main.py
    ```
 
-### 4. View the Output
-- The converted HTML files (`output_from_xml.html` and `output_from_json.html`) will be saved in the `html_converter/` folder.
+4. Follow the prompts to:
+   - Convert an XML file to HTML.
+   - Convert a JSON file to HTML.
+
+5. The converted HTML files will be saved in the `converted_files` folder.
 
 ---
 
@@ -108,4 +84,6 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ## Contact
 For questions or support, please contact [manthanrajurkar17@gmail.com].
+
+
 
