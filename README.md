@@ -61,25 +61,25 @@ HTML_CONVERTER/
 ## Future Scopes
 
 1.Enhanced User Interface:
-Develop a graphical user interface (GUI) for a more user-friendly experience.
+   Develop a graphical user interface (GUI) for a more user-friendly experience.
 
 2.Support for Additional Formats:
-Extend functionality to support CSV, YAML, or other file formats for conversion to HTML.
+   Extend functionality to support CSV, YAML, or other file formats for conversion to HTML.
 
 3.Batch Processing:
-Implement batch processing to convert multiple files simultaneously.
+   Implement batch processing to convert multiple files simultaneously.
 
 4.Customizable HTML Templates:
-Allow users to apply custom HTML templates for more personalized output.
+   Allow users to apply custom HTML templates for more personalized output.
 
 5.Cloud Integration:
-Add cloud storage support to fetch files from and save outputs directly to platforms like AWS S3, Google Drive, etc.
+   Add cloud storage support to fetch files from and save outputs directly to platforms like AWS S3, Google Drive, etc.
 
 6.Improved Error Handling:
-Include detailed error messages and logging for debugging and better user feedback.
+   Include detailed error messages and logging for debugging and better user feedback.
 
 7.API Integration:
-Create a REST API for developers to integrate the conversion functionality into other applications.
+   Create a REST API for developers to integrate the conversion functionality into other applications.
 
 ## Contribution Guidelines
 
